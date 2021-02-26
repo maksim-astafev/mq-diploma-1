@@ -332,10 +332,10 @@ body {
   outline-offset: -1px;
 }
 
-.search-field {
+/*.search-field {
   /*flex-grow: 1;*/     /* пока не понял, почему не работает так же:    https://cdpn.io/maksim-astafev/debug/NWbXqLB/NjkYzGGXeyNM */
   /* width: calc(100% - 48px); */     /* так я выяснил, что 100% уже не от родителя, а от того, что осталось после кнопки*/
-}
+/*}*/
 
 .button {
   height: 48px;
