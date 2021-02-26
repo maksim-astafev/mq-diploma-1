@@ -1,0 +1,13 @@
+.trends-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.trends-list-item {
+  width: 49.8%;
+}
+
+.trends-list-item:nth-child(n+3) {
+  margin-top: 3px;
+}

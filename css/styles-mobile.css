@@ -1,0 +1,112 @@
+.container{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  margin-bottom: 40px;
+  padding-top: 25px;
+  padding-bottom: 200px;
+  background-image: url("../images/banner-mobile.jpg");
+}
+
+.header-top {
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.header-top-logo {
+  /* width: 75vw; */
+  width: calc(35.714286vw + 8.839286rem);
+  margin-top: 160px;
+  order: 1;
+  align-self: center;
+}
+
+.menu {
+  align-self: flex-end;
+}
+
+.header-intro {
+  width: 85%;
+}
+
+.page-block-title {
+  margin-bottom: 25px;
+}
+
+.section-title::after {
+  margin-top: 6px;
+}
+
+.trends {
+  margin-bottom: 45px;
+}
+
+.trends-list-item {
+  /* min-height: calc(100vw*230/360); */
+  min-height: 230px;
+}
+
+.trends-list-item-text {
+  padding: 20px;
+}
+
+.central {
+  margin-bottom: 40px;
+}
+
+.posts {
+  margin-bottom: 40px;
+}
+
+.post:nth-child(n+2) {
+  margin-top: 35px;
+}
+
+.post-img {
+  margin-bottom: 10px;
+}
+
+.post-text-header {
+  margin-bottom: 15px;
+}
+
+.post-text-header-title {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.post-text-desc-item:nth-child(n+2) {
+  margin-top: 10px;
+}
+
+.sidebar-block-title {
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+.sidebar-block-compacted:nth-child(n) {
+  margin-top: 40px;
+}
+
+.goods {
+  margin-bottom: 45px;
+}
+
+.goods-list-item:nth-child(n+2) {
+  margin-top: 25px;
+}
+
+.footer-links {
+  margin-bottom: 45px;
+}
+
+.popup {
+  width: 330px;
+}
+
+.popup-close {
+  top: -30px;
+}
+

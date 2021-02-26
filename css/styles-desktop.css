@@ -1,0 +1,184 @@
+.container{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  margin-bottom: 55px;
+  padding-top: 25px;
+  padding-bottom: 130px;
+  background-image: url("../images/banner-bg.jpg");
+}
+
+.header-top {
+  margin-bottom: 100px;
+}
+
+.header-top-logo {
+  width: 180px;
+}
+
+.menu-button {
+  display: none;
+}
+
+.menu-list {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+}
+
+.menu-list-item:nth-child(n+2) {
+  margin-left: 35px;
+}
+
+.menu-list-item-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu-list-item-link:hover {
+  text-decoration: underline;
+}
+
+.header-intro {
+  width: 700px;
+}
+
+.header-intro-title {
+  margin-bottom: 60px;
+  font-size: 2.8125rem;
+  line-height: 1.6667;
+}
+
+.page-block-title {
+  margin-bottom: 30px;
+  font-size: 1.25rem;
+}
+
+.trends {
+  margin-bottom: 60px;
+}
+
+.trends-list-item {
+  width: 24.8%;
+  min-height: 320px;
+}
+
+.trends-list-item-text {
+  padding: 35px;
+}
+
+.article-title {
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+.trends-list-item-text-title {
+  margin: 5px 0;
+}
+
+.central {
+  margin-bottom: 55px;
+}
+
+.posts {
+  width: 780px;
+}
+
+.post {
+  display: flex;
+}
+
+.post:nth-child(n+2) {
+  margin-top: 60px;
+}
+
+.post-img {
+  width: 380px;
+  flex-shrink: 0;
+  margin-right: 30px;
+}
+
+.post-text-header {
+  margin-bottom: 30px;
+}
+
+.post-text-header-title {
+  margin-top: 15px;
+  margin-top: 20px;
+}
+
+.post-text-desc {
+  font-size: 0.9375rem;
+  line-height: 1.4667;
+}
+
+.post-text-desc-item:nth-child(n+2) {
+  margin-top: 15px;
+}
+
+.sidebar {
+  width: 270px;
+}
+
+.sidebar-block-title {
+  margin-bottom: 40px;
+  font-size: 0.875rem;
+}
+
+.goods {
+  margin-bottom: 65px;
+}
+
+.goods-list-item {
+  width: 29%;
+}
+
+.goods-list-item-img {
+  height: 204px;
+}
+
+.goods-list-item-text-title {
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+.footer {
+  margin-bottom: 40px;
+}
+
+.footer-links {
+  margin-bottom: 70px;
+}
+
+.popup-form-row-group-radio-option::before {
+  width: 1rem;
+  height: 1rem;
+  background-size: 1rem;
+}
+
+.popup-close {
+  width: 20px;
+  height: 20px;
+  top: -25px;
+}
+
+.popup-close::before {
+  width: 20px;
+  height: 3px;
+  border-radius: 3px;
+}
+
+.popup-close::after {
+  width: 20px;
+  height: 3px;
+  border-radius: 3px;
+}

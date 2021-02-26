@@ -1,0 +1,101 @@
+.container{
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.header {
+  margin-bottom: 45px;
+  padding-top: 40px;
+  padding-bottom: 120px;
+  background-image: url("../images/banner-bg-tablet.jpg");
+}
+
+.header-top {
+  margin-bottom: 100px;
+}
+
+.header-top-logo {
+  width: 150px;
+}
+
+.header-intro {
+  width: 88%;
+}
+
+.page-block-title {
+  margin-bottom: 25px;
+}
+
+.trends {
+  margin-bottom: 50px;
+}
+
+.trends-list {
+  flex-wrap: wrap;
+}
+
+.trends-list-item-text {
+  padding: 30px;
+}
+
+.central {
+  margin-bottom: 50px;
+}
+
+.posts {
+  width: 55.873926%;
+}
+
+.post:nth-child(n+2) {
+  margin-top: 40px;
+}
+
+.post:last-child::after {
+  display: none;
+}
+
+.sidebar {
+  width: 38.681948%;
+}
+
+.post-text-header {
+  margin-bottom: 30px;
+}
+
+.post-text-header-title {
+  margin-top: 15px;
+  margin-top: 20px;
+}
+
+.post-text-desc-item:nth-child(n+2) {
+  margin-top: 15px;
+}
+
+.sidebar-block-title {
+  margin-bottom: 30px;
+  font-size: 0.875rem;
+}
+
+.goods {
+  margin-bottom: 50px;
+}
+
+.goods-list {
+  flex-wrap: wrap;
+}
+
+.goods-list-item {
+  width: 47%;
+}
+
+.goods-list-item:nth-child(n+3) {
+  margin-top: 30px;
+}
+
+.footer-links {
+  margin-bottom: 45px;
+}
+
+.popup-close {
+  top: -33px;
+}
